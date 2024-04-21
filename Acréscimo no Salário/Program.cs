@@ -3,7 +3,7 @@
 float salario, salario_aux, salario_final, salario_acrescimo, salario_acrescimo_aux, acrescimo;
 
 //Entrada de Dados e Operações
-Console.WriteLine("Digite um valor posiivo para o salário\n");
+Console.WriteLine("ATENÇÃO: SOMENTE SÃO VÁLIDOS VALORES POSITIVOS\n");
 
 do
 {
