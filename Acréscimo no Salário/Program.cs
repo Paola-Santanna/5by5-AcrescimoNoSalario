@@ -1,9 +1,5 @@
-﻿//Faça um programa que leia o valor atual do salário de uma pessoa e o valor com acréscimo. E informe a porcentagem de acréscimo que foi dada; atenção: salário somente aumenta; 
+﻿Console.WriteLine("--- Acréscimo no Salário ---\n");
 
-//Início
-Console.WriteLine("--- Acréscimo no Salário ---\n");
-
-//Declaração de Variáveis
 float salario, salario_aux, salario_final, salario_acrescimo, salario_acrescimo_aux, acrescimo;
 
 //Entrada de Dados e Operações
