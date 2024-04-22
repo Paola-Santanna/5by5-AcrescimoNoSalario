@@ -1,4 +1,6 @@
-﻿Console.WriteLine("--- Acréscimo no Salário ---\n");
+﻿using static System.Math;
+
+Console.WriteLine("--- Acréscimo no Salário ---\n");
 
 float salario, salario_aux, salario_final, salario_acrescimo, salario_acrescimo_aux, acrescimo;
 
@@ -27,7 +29,8 @@ do
 } while (salario_acrescimo_aux == 0);
 
 acrescimo = ((salario_acrescimo_aux * 100)/ salario_aux) - 100;
-Console.WriteLine($"\nO acréscimo foi de: {acrescimo}%");
+Console.Write($"\nAcréscimo = {acrescimo}");
+Console.WriteLine($" -> {Round(acrescimo, 2)}%");
 
 //Final do Programa
 Console.WriteLine("\nAperte ENTER para encerrar...");
